@@ -10,7 +10,7 @@ var turn = 0;
 
 // Creating checkWin function via checking against assigned box IDs and icon value
 
-  function checkWiner() {
+  function checkWinner() {
     if ( $('#box1').html()===icon && $('#box2').html()===icon && $('#box3').html()===icon ) {
       $('#box1, #box2, #box3');
       alert(player + ' wins!!!');
