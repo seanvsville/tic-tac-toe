@@ -1,8 +1,67 @@
-#board {
-  margin-top: 10px;
+body {
+  background: url("../images/simpsonswallpaper.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+  height:100%;
+  position::absolute;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Simpsons";
+  src:url('../fonts/akbar.ttf') format('truetype'),
+    url('../fonts/Simpsonfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SimpsonsEMOJIS";
+  src:url('../fonts/SimpsonsEMOJIS.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 .box {
-  border: 1px solid black;
-  height: 150px;
+  font-family: "SimpsonsEMOJIS", monospace;
+  font-size: 60px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15%;
+  width: 155px;
+  height: 155px;
+  padding: 31px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.btn {
+  display:inline-block;
+  margin:0 auto;
+  width: 490px;
+}
+
+#board {
+  margin-top: 5px;
+}
+
+#simpsons {
+  font-family: "Simpsons", monospace;
+  color: yellow;
+  text-shadow: -5px 2px #000000;
+  word-spacing: 4em;
+  padding-top: 10px;
+}
+
+#yellowbutton {
+  font-family: "Simpsons", Monospace;
+  color: black;
+  text-shadow: -5px 2px #FFFFFF;
+  font-size: 35px;
+  background-color: yellow;
+  padding: 1px;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5%;
 }
