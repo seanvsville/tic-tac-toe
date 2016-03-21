@@ -10,7 +10,7 @@ var turn = 0;
 
 // Creating checkWin function via checking against assigned box IDs and icon value
 
-  function checkWin() {
+  function checkWiner() {
     if ( $('#box1').html()===icon && $('#box2').html()===icon && $('#box3').html()===icon ) {
       $('#box1, #box2, #box3');
       alert(player + ' wins!!!');
@@ -45,7 +45,7 @@ var turn = 0;
 
 // Set function for handling turns
 // If whatever box gets selected, apply text to selected box
-// checkWin at end of function
+// checkWinner at end of function
 
   $(".box").click(function handleTurn(event){
     if ( !$(this).html() ) {
@@ -63,7 +63,7 @@ var turn = 0;
         player = "Ralph";
       }
       $(this).html(icon);
-      checkWin();
+      checkWinner();
     }
   });
 
