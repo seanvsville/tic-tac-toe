@@ -90,6 +90,13 @@ $('#reset').on('click', function() {
     resetBoard();
   });
 
+// Reset board when manually clicking on reset button
+$(".btn").click(function() {
+  resetBoard();
+  turn = 0;
+});
+
+
 // End of document functions //
 
 });
