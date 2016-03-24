@@ -28,7 +28,7 @@ body {
   border-color: black;
   border-style: solid;
   border-radius: 15%;
-  width: 155px;
+  width: 165px;
   height: 155px;
   padding: 31px;
   margin: 10px;
@@ -38,7 +38,7 @@ body {
 .btn {
   display:inline-block;
   margin: 0 auto;
-  width: 490px;
+  width: 528px;
 }
 
 #board {
