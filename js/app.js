@@ -17,7 +17,7 @@ var turn = 0;
     turn = 0;
   }
 
-// Creating checkWin function via checking against assigned box IDs and icon value
+// Creating checkWinner function via checking against assigned box IDs and icon value
 
   function checkWinner() {
     if ( $('#box1').html()===icon && $('#box2').html()===icon && $('#box3').html()===icon ) {
