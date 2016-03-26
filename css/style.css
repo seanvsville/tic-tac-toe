@@ -39,6 +39,16 @@ body {
   display:inline-block;
   margin: 0 auto;
   width: 558px;
+  font-family: "Simpsons", Monospace;
+  color: black;
+  text-shadow: -5px 2px #FFFFFF;
+  font-size: 35px;
+  background-color: yellow;
+  padding: 1px;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5%;
 }
 
 #board {
@@ -51,17 +61,4 @@ body {
   text-shadow: -5px 2px #000000;
   word-spacing: 1em;
   padding-top: 10px;
-}
-
-#yellowbutton {
-  font-family: "Simpsons", Monospace;
-  color: black;
-  text-shadow: -5px 2px #FFFFFF;
-  font-size: 35px;
-  background-color: yellow;
-  padding: 1px;
-  border: black;
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 5%;
 }
